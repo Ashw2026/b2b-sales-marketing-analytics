@@ -151,18 +151,14 @@ The project includes Business Analysis documentation covering:
 
 ## Project Structure
 
-
-
-```markdown
-## Project Structure
-
 ```text
 b2b-sales-marketing-analytics
 │
 ├── PowerBI
+│   ├── B2B Motor Sales & Marketing Analytics.pbix
+│   └── README.md
 │
 └── Project-01-B2B-Sales-Marketing-Analytics
-    │
     ├── BA-Documentation
     │   ├── B2B_Motor_Sales_Marketing_BA_Documentation.docx
     │   └── README.md
@@ -173,5 +169,7 @@ b2b-sales-marketing-analytics
     │
     ├── Insights
     │   └── README.md
+    │
+    ├── Executive-Overview.png.png
     │
     └── README.md
