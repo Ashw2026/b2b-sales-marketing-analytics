@@ -179,3 +179,7 @@ b2b-sales-marketing-analytics
 ![Executive Overview](./Executive-Overview.png.png)
 
 [Download Power BI Dashboard File](../PowerBI/B2B%20Motor%20Sales%20%26%20Marketing%20Analytics.pbix)
+
+### Product & Market Analysis
+
+![Product Market Analysis](./Product-Market-Analysis.png.png)
