@@ -173,3 +173,7 @@ b2b-sales-marketing-analytics
     ├── Executive-Overview.png.png
     │
     └── README.md
+
+## Power BI Dashboard
+
+![Executive Overview](./Executive-Overview.png.png)
