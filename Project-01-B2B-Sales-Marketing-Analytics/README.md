@@ -184,4 +184,6 @@ b2b-sales-marketing-analytics
 
 ![Product Market Analysis](./Product-Market-Analysis.png.png)
 
-![Product Market Analysis](./Product-Market-Analysis.png.png)
+### Sales Pipeline & Loss Analysis
+
+![Sales Pipeline & Loss Analysis](./Insights/Sales-Pipeline-Loss-Analysis.png.png)
