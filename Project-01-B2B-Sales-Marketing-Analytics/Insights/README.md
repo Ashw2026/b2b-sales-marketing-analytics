@@ -137,6 +137,6 @@ Project-01-B2B-Sales-Marketing-Analytics
 │   ├── Sales-Pipeline-Loss-Analysis.png.png
 │   └── README.md
 │
-├── Executive-Overview.png.png
+├── ![Executive Overview](Executive-Overview.png.png)
 ├── Product-Market-Analysis.png.png
 └── README.md
