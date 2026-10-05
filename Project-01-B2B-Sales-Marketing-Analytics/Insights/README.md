@@ -1,206 +1,142 @@
-# Business Insights & Recommendations
+# B2B Motor Sales & Marketing Analytics
 
-## 1. Lead Source Performance
+## Project Overview
 
-### Insight
+A Business Analyst and Power BI portfolio project focused on analyzing B2B motor sales and marketing performance using a simulated CRM dataset.
 
-LinkedIn and Google Ads show relatively stronger lead conversion performance compared with the other lead sources.
+The project analyzes the complete journey from lead generation to deal closure, including lead sources, conversion, sales pipeline, quotation value, won revenue, motor technology, application, sales executives, and lost-deal reasons.
 
-| Lead Source | Conversion Rate |
-|---|---:|
-| LinkedIn | 13.95% |
-| Google Ads | 12.88% |
-| Website | 12.08% |
-| Trade Show | 10.84% |
-| Email Campaign | 10.56% |
-| Referral | 9.41% |
+## Business Problem
 
-### Business Implication
+A B2B motor technology company generates leads through multiple channels such as Website, Google Ads, LinkedIn, Trade Shows, Referrals, and Email Campaigns.
 
-LinkedIn and Google Ads appear to generate relatively higher-quality leads. Referral leads have the lowest conversion rate and may require better qualification or follow-up.
+Without a centralized view of lead conversion, sales pipeline, quotation value, won revenue, product performance, and loss reasons, management has limited visibility into sales and marketing performance.
 
-### Recommendation
+## Business Objectives
 
-Focus on improving and scaling high-performing channels while reviewing lead quality and follow-up processes for lower-performing sources.
+- Measure lead generation and conversion performance.
+- Identify high-performing lead sources and campaigns.
+- Analyze sales pipeline and deal-stage performance.
+- Track quotation value and won revenue.
+- Compare motor technology and application performance.
+- Analyze lost deals and identify major loss reasons.
+- Support data-driven sales and marketing decisions.
 
----
+## Key KPIs
 
-## 2. Motor Type Performance
+- Total Leads
+- Won Leads
+- Conversion Rate
+- Total Deals
+- Won Deals
+- Won Deal Rate
+- Total Quotation Value
+- Total Won Revenue
+- Lost Deals
 
-### Insight
+## Tools & Technologies
 
-SRM and BLDC show higher lead conversion rates compared with Induction motors.
+- Microsoft Excel
+- Power BI
+- DAX
+- Power Query
+- Business Analysis
+- CRM / Sales Analytics
 
-| Motor Type | Conversion Rate |
-|---|---:|
-| SRM | 12.58% |
-| BLDC | 12.46% |
-| Induction | 9.86% |
+## Dataset
 
-### Business Implication
+The dataset is synthetic and created for portfolio and learning purposes.
 
-SRM and BLDC demonstrate relatively stronger conversion performance in the simulated dataset.
+It contains:
 
-### Recommendation
+- Leads
+- Accounts
+- Contacts
+- Deals
+- Sales Executives
+- Lead Sources
+- Campaigns
+- Motor Types
+- Applications
+- Deal Stages
+- Lost Reasons
 
-Investigate customer requirements, pricing, technical fit, and positioning for Induction motors to understand the lower conversion rate.
+## Power BI Dashboard
 
----
+### Executive Overview
 
-## 3. Application Performance
+![Executive Overview](./Executive-Overview.png.png)
 
-### Insight
+### Product & Market Analysis
 
-HVAC and Industrial applications show relatively stronger lead conversion performance.
+![Product Market Analysis](./Product-Market-Analysis.png.png)
 
-| Application | Conversion Rate |
-|---|---:|
-| HVAC | 12.34% |
-| Industrial | 12.20% |
-| Home Appliances | 11.11% |
-| EV | 10.41% |
+### Sales Pipeline & Loss Analysis
 
-### Business Implication
+![Sales Pipeline & Loss Analysis](./Insights/Sales-Pipeline-Loss-Analysis.png.png)
 
-HVAC and Industrial applications appear to have relatively stronger conversion potential in the simulated dataset.
+## Dashboard Pages
 
-### Recommendation
+### 1. Executive Overview
 
-Evaluate customer requirements, product-market fit, pricing, and technical requirements across applications, particularly for EV opportunities.
+Provides an overall view of lead generation, conversion rate, quotation value, and won revenue.
 
----
+### 2. Product & Market Analysis
 
-## 4. Won Revenue by Motor Type
+Analyzes performance by motor type and application and identifies revenue contribution across market segments.
 
-### Insight
+### 3. Sales Pipeline & Loss Analysis
 
-SRM generates the highest won revenue among the motor technologies.
+Analyzes deal stages, sales pipeline performance, sales executive performance, and major lost-deal reasons.
 
-| Motor Type | Won Revenue |
-|---|---:|
-| SRM | ₹37M |
-| Induction | ₹34M |
-| BLDC | ₹33M |
+## Key Insights
 
-### Business Implication
+- LinkedIn and Google Ads show relatively stronger lead conversion performance compared with other lead sources.
+- SRM and BLDC show stronger conversion performance than Induction motors.
+- HVAC and Industrial applications contribute strongly to won revenue.
+- Price, Competitor, Technical Fit, and No Requirement are important lost-deal reasons.
+- The dashboard provides visibility across the complete lead-to-deal journey.
 
-SRM contributes the highest won revenue in the simulated dataset.
+## Business Recommendations
 
-### Recommendation
-
-Analyze the factors contributing to SRM performance, including customer demand, application mix, deal size, and sales opportunities.
-
----
-
-## 5. Won Revenue by Application
-
-### Insight
-
-HVAC generates the highest won revenue among the applications.
-
-| Application | Won Revenue |
-|---|---:|
-| HVAC | ₹32M |
-| Industrial | ₹26M |
-| Home Appliances | ₹25M |
-| EV | ₹20M |
-
-### Business Implication
-
-HVAC represents the strongest application in terms of won revenue within the simulated dataset.
-
-### Recommendation
-
-Investigate the characteristics of successful HVAC opportunities and identify whether similar opportunities can be developed in other applications.
-
----
-
-## 6. Sales Pipeline Analysis
-
-### Insight
-
-The dataset contains 650 deals distributed across different pipeline stages.
-
-| Deal Stage | Deal Count |
-|---|---:|
-| Won | 150 |
-| Quotation | 131 |
-| Technical Evaluation | 98 |
-| Negotiation | 95 |
-| Lost | 91 |
-| Qualified | 85 |
-
-### Business Implication
-
-A significant number of opportunities remain across intermediate stages such as Quotation, Technical Evaluation, Negotiation, and Qualified.
-
-### Recommendation
-
-Sales teams should closely monitor opportunities in intermediate stages and focus on moving qualified opportunities toward quotation, negotiation, and closure.
-
-> Note: These values represent the current stage distribution of deals. They should not be interpreted as chronological movement through the pipeline.
-
----
-
-## 7. Lost Deal Analysis
-
-### Insight
-
-"No Requirement" is the largest identified reason for lost deals.
-
-| Lost Reason | Lost Deals |
-|---|---:|
-| No Requirement | 21 |
-| Price | 17 |
-| Competitor | 16 |
-| Technical Fit | 16 |
-| Budget Constraint | 12 |
-| Customer Delayed | 9 |
-
-### Business Implication
-
-The results indicate that losses are associated with customer requirement fit, pricing, competition, technical fit, and budget-related factors.
-
-### Recommendation
-
-Improve lead qualification, understand customer requirements earlier, strengthen pricing and competitive positioning, and improve technical solution alignment.
-
----
-
-## 8. Overall KPI Performance
-
-The Power BI dashboard provides the following overall portfolio metrics:
-
-- Total Leads: 1,000
-- Won Leads: 116
-- Lead Conversion Rate: 11.60%
-- Total Deals: 650
-- Won Deals: 150
-- Deal Win Rate: 23.08%
-- Total Quotation Value: ₹517.70M
-- Total Won Revenue: ₹103.44M
-- Lost Deals: 91
-
-### Business Implication
-
-The dashboard provides management with a consolidated view of lead generation, conversion, sales pipeline, quotation value, revenue, product performance, application performance, and lost-deal drivers.
-
----
-
-# Key Recommendations
-
-1. Strengthen high-performing lead channels such as LinkedIn and Google Ads.
-2. Improve lead qualification to reduce losses caused by "No Requirement".
-3. Review pricing and competitive positioning to address Price and Competitor losses.
-4. Improve technical solution alignment to reduce Technical Fit losses.
-5. Investigate the stronger performance of SRM and HVAC opportunities.
-6. Monitor opportunities at Qualified, Technical Evaluation, Quotation, and Negotiation stages.
-7. Use Power BI filters to compare performance by sales executive, application, and date.
-
----
-
-## Project Note
-
-This analysis is based on a synthetic CRM-style dataset created for portfolio and learning purposes.
-
-The insights demonstrate how a Business Analyst can convert CRM and sales data into actionable business insights using Power BI.
+- Focus marketing investment on higher-converting lead sources.
+- Monitor lead quality by campaign and source.
+- Analyze lost deals regularly to identify improvement opportunities.
+- Strengthen follow-up during quotation and negotiation stages.
+- Compare product and application performance to support sales planning.
+
+## Business Analyst Documentation
+
+The project includes Business Analyst documentation covering:
+
+- Business Problem
+- Business Objectives
+- Stakeholders
+- Business Requirements
+- KPIs & Metrics
+- Data Sources
+- Data Model
+- Dashboard Requirements
+- Business Insights
+- Assumptions & Limitations
+
+## Project Structure
+
+```text
+Project-01-B2B-Sales-Marketing-Analytics
+│
+├── BA-Documentation
+│   ├── B2B_Motor_Sales_Marketing_BA_Documentation.docx
+│   └── README.md
+│
+├── Dataset
+│   ├── b2b_motor_sales_marketing_powerbi_sample.xlsx
+│   └── README.md
+│
+├── Insights
+│   ├── Sales-Pipeline-Loss-Analysis.png.png
+│   └── README.md
+│
+├── Executive-Overview.png.png
+├── Product-Market-Analysis.png.png
+└── README.md
