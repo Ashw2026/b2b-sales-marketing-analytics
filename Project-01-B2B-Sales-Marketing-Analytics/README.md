@@ -183,3 +183,5 @@ b2b-sales-marketing-analytics
 ### Product & Market Analysis
 
 ![Product Market Analysis](./Product-Market-Analysis.png.png)
+
+![Product Market Analysis](./Product-Market-Analysis.png.png)
