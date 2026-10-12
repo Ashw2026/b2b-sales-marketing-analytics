@@ -23,6 +23,9 @@ The project uses synthetic data for portfolio and learning purposes.
 
 ## Power BI Dashboard
 **Page 1 — Executive Overview:** Summary of key performance indicators.
+### Page 1 — Executive Overview
+
+![Executive Overview](./Executive-Overview.png)
 
 **Page 2 — Product & Market Analysis:** Product performance, market size, and market growth.
 
