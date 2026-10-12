@@ -28,7 +28,7 @@ The project uses synthetic data for portfolio and learning purposes.
 ![Executive Overview](./Executive-Overview.png)
 
 **Page 2 — Product & Market Analysis:** Product performance, market size, and market growth.
-![Product & Market Analysis](./Product-Market-Analysis.png)
+[![Product & Market Analysis](./Product-Market-Analysis.png)](https://github.com/Ashw2026/b2b-sales-marketing-analytics/blob/main/Project-02-Motor-Product-Market-Intelligence/Competitor%20Analysis%20Png.png)
 
 **Page 3 — Competitor Analysis:** Competitor pricing, presence, and efficiency benchmarking.
 ![Competitor Analysis](./Competitor-Analysis.png)
