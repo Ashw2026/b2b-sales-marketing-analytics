@@ -28,9 +28,7 @@ The project uses synthetic data for portfolio and learning purposes.
 ![Executive Overview](./Executive-Overview.png)
 
 **Page 2 — Product & Market Analysis:** Product performance, market size, and market growth.
-### Page 2 — Product & Market Analysis
 
-![Product & Market Analysis](./Product-Market-Analysis.png.png)
 
 **Page 3 — Competitor Analysis:** Competitor pricing, presence, and efficiency benchmarking.
 
