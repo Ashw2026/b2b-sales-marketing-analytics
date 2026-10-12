@@ -29,8 +29,6 @@ The project uses synthetic data for portfolio and learning purposes.
 
 ### Page 2 — Product & Market Analysis
 
-![Product & Market Analysis](./Product-Market-Analysis.png)
-
 **Page 3 — Competitor Analysis:** Competitor pricing, presence, and efficiency benchmarking.
 
 **Page 4 — Sales & Opportunity Analysis:** Revenue, units sold, market growth, and selling price across regions, products, and applications.
