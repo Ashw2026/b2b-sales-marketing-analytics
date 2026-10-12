@@ -28,10 +28,13 @@ The project uses synthetic data for portfolio and learning purposes.
 ![Executive Overview](./Executive-Overview.png)
 
 **Page 2 — Product & Market Analysis:** Product performance, market size, and market growth.
+![Product & Market Analysis](./Product-Market-Analysis.png)
 
 **Page 3 — Competitor Analysis:** Competitor pricing, presence, and efficiency benchmarking.
+![Competitor Analysis](./Competitor-Analysis.png)
 
 **Page 4 — Sales & Opportunity Analysis:** Revenue, units sold, market growth, and selling price across regions, products, and applications.
+![Sales & Opportunity Analysis](./Sales-Opportunity-Analysis.png)
 
 ## Tools & Skills
 - Microsoft Power BI
